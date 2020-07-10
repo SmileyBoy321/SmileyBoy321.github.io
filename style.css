@@ -52,7 +52,7 @@ body {
 
 .project {
  flex: 1 100%;
- background-color: rgb(33, 33, 33);
+ background-color: rgba(0.5, 0.5, 0.5, 0.6);
  padding: 10px;
  display: block;
  color: white;
@@ -60,9 +60,16 @@ body {
  margin: 25px;
  max-width: 400px;
  box-shadow: 5px 2px 30px 3px black;
- opacity: 70%;
 }
 
 .project h2 {
+ /*put title styles here*/
+}
 
+.project p {
+ /*put text styles here*/
+}
+
+.project img {
+ width: 400px;
 }
