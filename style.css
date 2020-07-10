@@ -1,0 +1,89 @@
+.site-header {
+ background: rgb(33,33,33);
+ font-size: 30px;
+ position: relative;
+ display: flex;
+ height: 50px;
+ opacity: 80%;
+}
+
+.main-sections li {
+ position: relative;
+ list-style-type: none; 
+ padding: 10px;
+ margin: 0;
+ display: inline-block;
+ float: left;
+ top: -35px;
+}
+
+.main-sections a:link { text-decoration: none; }
+.main-sections a:visited { text-decoration: none; }
+.main-sections a:active { text-decoration: none; }
+
+.main-sections a {
+ color: rgb(97,97,97);
+}
+
+.main-sections a:hover {
+ color: rgb(100,221,23);
+}
+
+.options {
+ margin: 0 auto;
+}
+
+body {
+ margin: 0;
+ font-family: "Roboto";
+}
+
+html {
+ background: url(galaxy_picture.png) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+
+.Project-Container {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-content: stretch;
+}
+
+#box-container {
+ flex: 1 100%;
+ background-color: rgb(33, 33, 33);
+ padding: 10px;
+ display: block;
+ color: white;
+ text-decoration-color: none;
+ margin. 25px;
+ max-width: 400px;
+ box-shadow: 5px 2px 30px 3px black;
+ opacity: 70%;
+}
+/*
+#box-container h2 {
+ position: relative;
+ font-family: "Roboto";
+ color: white;
+ margin: 0 auto;
+ text-align: center;
+ top: 5px;
+}
+
+#box-container p {
+ font-family: "Roboto";
+ color: white;
+ text-align: center;
+ margin: 0 auto;
+}
+
+box-shadow: 5px 2px 30px 3px black;
+ opacity: 70%;
+*/
