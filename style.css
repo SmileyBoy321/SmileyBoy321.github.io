@@ -1,44 +1,6 @@
-.site-header {
- background: rgb(33,33,33);
- font-size: 30px;
- position: relative;
- display: flex;
- height: 50px;
- opacity: 80%;
-}
-
-.main-sections li {
- position: relative;
- list-style-type: none; 
- padding: 10px;
- margin: 0;
- display: inline-block;
- float: left;
- top: -35px;
-}
-
-.main-sections a:link { text-decoration: none; }
-.main-sections a:visited { text-decoration: none; }
-.main-sections a:active { text-decoration: none; }
-
-.main-sections a {
- color: rgb(97,97,97);
-}
-
-.main-sections a:hover {
- color: rgb(100,221,23);
-}
-
-.options {
- margin: 0 auto;
-}
-
 body {
- margin: 0;
  font-family: "Roboto";
-}
-
-html {
+ margin: 0;
  background: url(galaxy_picture.png) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -46,8 +8,41 @@ html {
  background-size: cover;
 }
 
+.site-header {
+ background: rgb(33,33,33);
+ font-size: 30px;
+ height: 50px;
+ opacity: 80%;
+ margin: 0;
+ text-align: center;
+}
 
-.Project-Container {
+.header-items {
+ display: inline-block;
+ padding: 0 auto;
+ margin: 0 auto;
+}
+
+.header-item {
+ list-style-type: none; 
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin: 0;
+ float: left;
+}
+
+.header-item a {
+ color: rgb(97,97,97);
+ text-decoration: none;
+}
+
+.header-item a:hover {
+ color: rgb(100,221,23);
+}
+
+.projects {
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
@@ -55,35 +50,19 @@ html {
  align-content: stretch;
 }
 
-#box-container {
+.project {
  flex: 1 100%;
  background-color: rgb(33, 33, 33);
  padding: 10px;
  display: block;
  color: white;
  text-decoration-color: none;
- margin. 25px;
+ margin: 25px;
  max-width: 400px;
  box-shadow: 5px 2px 30px 3px black;
  opacity: 70%;
 }
-/*
-#box-container h2 {
- position: relative;
- font-family: "Roboto";
- color: white;
- margin: 0 auto;
- text-align: center;
- top: 5px;
-}
 
-#box-container p {
- font-family: "Roboto";
- color: white;
- text-align: center;
- margin: 0 auto;
-}
+.project h2 {
 
-box-shadow: 5px 2px 30px 3px black;
- opacity: 70%;
-*/
+}
