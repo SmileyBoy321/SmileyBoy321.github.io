@@ -64,13 +64,20 @@ body {
 }
 
 .project h2 {
- /*put title styles here*/
+ position: relative;
+ font-family: "Roboto";
+ color: white;
+ text-align: center;
+ margin: 0 auto;
 }
 
 .project p {
- /*put text styles here*/
+ font-family: "Roboto";
+ color: white;
+ text-align: center;
 }
 
 .project img {
- width: 400px;
+ width: 100%;
+ max-height: 200px;
 }
