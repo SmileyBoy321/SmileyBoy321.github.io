@@ -1,11 +1,14 @@
-body {
- font-family: "Roboto";
- margin: 0;
+html {
  background: url(galaxy_picture.png) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+}
+
+body {
+ font-family: "Roboto";
+ margin: 0;
 }
 
 .site-header {
