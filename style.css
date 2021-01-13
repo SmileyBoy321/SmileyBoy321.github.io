@@ -1,7 +1,7 @@
 body {
  font-family: "Roboto";
  margin: 0;
- background: url(galaxy_picture.png) no-repeat center center fixed;
+ background: url(images/galaxy_picture.png) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -88,7 +88,10 @@ body {
  bottom: 0;
  width: 100%;
  background-color: rgba(33, 33, 33, 0.3);
- color: rgb(97, 97, 97);
+}
+
+.footer p {
+ color: rgba(158, 158, 158, 1);
  text-align: center;
  font-weight: bold;
  font-size: 15px;
